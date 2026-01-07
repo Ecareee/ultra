@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_activity_unit">
+        <item quantity="other">分钟</item>
+        <item quantity="one">分钟</item>
+    </plurals>
+    <plurals name="daily_activity_calories_unit">
+        <item quantity="other">千卡</item>
+        <item quantity="one">千卡</item>
+    </plurals>
+    <plurals name="daily_activity_standby_unit">
+        <item quantity="other">次</item>
+        <item quantity="one">次</item>
+    </plurals>
+    <plurals name="daily_activity_step_unit">
+        <item quantity="other">步</item>
+        <item quantity="one">步</item>
+    </plurals>
+    <plurals name="heart_rate_text_unit">
+        <item quantity="other">次/分</item>
+        <item quantity="one">次/分</item>
+    </plurals>
+    <plurals name="heart_rate_time_unit">
+        <item quantity="other">分钟前</item>
+        <item quantity="one">分钟前</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d mins</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+</resources>

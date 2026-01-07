@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="25.0px" android:width="38.0px" android:viewportWidth="38.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="battery_frame" android:fillColor="#ffffffff" android:pathData="M28.1711,0.9766C31.773,0.9766 34.6928,3.8964 34.6928,7.4983L34.6927,7.9236L34.727,7.9239C36.1677,7.9239 37.3357,9.0919 37.3357,10.5326L37.3357,16.0521C37.3357,17.4374 36.2559,18.5705 34.892,18.6556L34.6887,18.6606L34.6887,18.6887C34.5656,22.1823 31.6947,24.9766 28.1711,24.9766L6.8574,24.9766C3.2556,24.9766 0.3357,22.0567 0.3357,18.4548L0.3357,7.4983C0.3357,3.8964 3.2556,0.9766 6.8574,0.9766L28.1711,0.9766ZM28.1369,3.5029L6.8916,3.5029C4.798,3.5029 3.0884,5.147 2.9836,7.2146L2.9786,7.4159L2.9786,18.5372C2.9786,20.6308 4.6227,22.3404 6.6902,22.4452L6.8916,22.4502L28.1369,22.4502C30.2305,22.4502 31.9401,20.8061 32.0449,18.7386L32.05,18.5372L32.05,7.4159C32.05,5.2548 30.298,3.5029 28.1369,3.5029Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:name="battery_progress" android:fillColor="#ffffffff" android:pathData="M6,13L29,13" android:strokeColor="#ffffffff" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

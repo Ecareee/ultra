@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aod_offsets_style_one">
+        <item>0,0</item>
+        <item>0,6</item>
+        <item>6,6</item>
+        <item>6,0</item>
+        <item>6,-6</item>
+        <item>0,-6</item>
+    </string-array>
+    <string-array name="default_aod_offsets">
+        <item>0,0</item>
+        <item>0,6</item>
+        <item>6,6</item>
+        <item>6,0</item>
+        <item>6,-6</item>
+        <item>0,-6</item>
+        <item>-6,-6</item>
+        <item>-6,0</item>
+        <item>-6,6</item>
+    </string-array>
+</resources>

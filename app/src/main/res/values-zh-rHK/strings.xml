@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽主頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">刪除</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空白鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">使用「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="base_connect_phone">請先連接手機</string>
+    <string name="base_operate_on_phone">請在手機上操作</string>
+    <string name="date_format_str">%1$s月%2$s日</string>
+    <string name="day_format_str">%1$s日</string>
+    <string name="default_temperature">--℃</string>
+    <string name="fat_basic_calorie">基礎消耗</string>
+    <string name="fat_dynamic_calorie">動態消耗</string>
+    <string name="fat_total_calorie">總消耗</string>
+    <string name="heart_rate_time_now">現在</string>
+    <string name="hour_unit">時</string>
+    <string name="lunar_month">Month</string>
+    <string name="month_format_str">%1$s月</string>
+    <string name="outdoormultifunction_watchface_name">Ultra模块</string>
+    <string name="privacy_mode_default_value">- -</string>
+    <string name="privacy_mode_tips">解鎖檢視</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="sleep_duration_text" formatted="false">%d小時%d分鐘</string>
+    <string name="sleep_duration_text_hour">小時</string>
+    <string name="sleep_duration_text_minute">分鐘</string>
+    <string name="sleep_no_data">- -小時- -分鐘</string>
+    <string name="sleep_status_less">偏短</string>
+    <string name="sleep_status_more">偏長</string>
+    <string name="sleep_status_normal">正常</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time_line_all_day">全天</string>
+</resources>

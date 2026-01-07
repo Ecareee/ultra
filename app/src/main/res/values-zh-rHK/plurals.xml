@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="daily_activity_activity_unit">
+        <item quantity="other">分鐘</item>
+        <item quantity="one">分鐘</item>
+    </plurals>
+    <plurals name="daily_activity_calories_unit">
+        <item quantity="other">千卡</item>
+        <item quantity="one">千卡</item>
+    </plurals>
+    <plurals name="daily_activity_standby_unit">
+        <item quantity="other">次</item>
+        <item quantity="one">次</item>
+    </plurals>
+    <plurals name="daily_activity_step_unit">
+        <item quantity="other">步</item>
+        <item quantity="one">步</item>
+    </plurals>
+    <plurals name="heart_rate_text_unit">
+        <item quantity="other">次/分鐘</item>
+        <item quantity="one">次/分鐘</item>
+    </plurals>
+    <plurals name="heart_rate_time_unit">
+        <item quantity="other">分鐘前</item>
+        <item quantity="one">分鐘前</item>
+    </plurals>
+</resources>

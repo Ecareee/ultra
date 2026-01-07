@@ -1,0 +1,4 @@
+replace com.lite.Ultra2.a2g.R*
+delete com.mosect.a2g.app.res.R*
+# Remove multidex lib
+delete android.support.multidex.**

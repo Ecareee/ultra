@@ -1,0 +1,56 @@
+import org.w3c.dom.Document
+import org.w3c.dom.Element
+
+import javax.xml.parsers.DocumentBuilderFactory
+
+//apply plugin: 'com.mosect.smali.plugin.SmaliPlugin'
+
+dependencies {
+    if (file('original/classes.jar').exists()) {
+        compileOnly files('original/classes.jar')
+    }
+    if (file('original/res.aar').exists()) {
+        implementation files('original/res.aar')
+    }
+//    implementation 'com.github.Mosect:Android-SmaliSdk:1.2.0'
+}
+
+def readXml = { File file ->
+    return DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file)
+}
+
+android {
+    File publicTxtFile = new File(buildDir, 'public.txt')
+    aaptOptions.additionalParameters("--stable-ids", "${publicTxtFile.absolutePath}")
+    applicationVariants.all { variant ->
+        def task = tasks.findByName(variant.preBuildProvider.name)
+        task.doLast {
+            if (!publicTxtFile.exists()) {
+                // 产生public.txt
+                if (!publicTxtFile.parentFile.exists()) publicTxtFile.parentFile.mkdirs()
+                publicTxtFile.text = ''
+            }
+            File publicXmlFile = file('src/main/res/values/public.xml')
+            if (publicXmlFile.exists()) {
+                Document publicXml = readXml(publicXmlFile)
+                def list = publicXml.getDocumentElement().getElementsByTagName("public")
+                if (list.getLength() > 0) {
+                    for (i in 0..<list.getLength()) {
+                        Element pi = list.item(i)
+                        def type = pi.getAttribute('type')
+                        def name = pi.getAttribute('name')
+                        def id = pi.getAttribute('id')
+                        publicTxtFile.append("${variant.applicationId}:${type}/${name} = ${id}\n")
+                    }
+                }
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}

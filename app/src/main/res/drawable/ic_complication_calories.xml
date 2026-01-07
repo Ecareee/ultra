@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_complication_calories__0" android:pathData="M9.3333,21C6.8031,20.206 4.3731,18.2749 4.0454,15.3208C3.752,12.6753 4.8796,9.9526 7.4283,7.1525L8.2381,10.8956C9.3849,10.0732 10.1068,8.943 10.4038,7.505C10.7008,6.067 10.5181,4.5654 9.8557,3C12.4981,3.604 14.2354,4.6663 15.0674,6.1868C15.8994,7.7073 16.2906,9.2769 16.2411,10.8956L18.191,9.032C19.9589,11.502 20.431,13.905 19.6073,16.241C18.7457,18.6844 16.8781,20.2342 14.7502,20.9484C13.9949,20.5354 13.3004,19.9868 12.6667,19.3027C11.6976,18.2567 10.9815,16.7677 10.5182,14.8357C9.9755,16.3087 9.6218,17.7174 9.457,19.0619C9.3739,19.7391 9.3327,20.3852 9.3333,21Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>
