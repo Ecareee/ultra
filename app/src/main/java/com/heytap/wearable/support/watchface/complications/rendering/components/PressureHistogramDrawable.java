@@ -587,18 +587,14 @@ public class PressureHistogramDrawable extends Drawable implements SensorEventLi
         long[] pattern = {500, 1000, 500, 1000}; // 等待半秒，振动一秒
         Log.d(myTag, "pressure data: pressureValue: " + pressureValue + ", minutesAgo: " + minutesAgo);
 
-        if (vib != null) {
-            if (minutesAgo >= 0 && pressureValue != -1 && minutesAgo <= 5) { // 检测数据是否正常
-                if (pressureValue <= threshold) { // 当压力值小于临界值
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) { // 检查是否支持 VibrationEffect
-                        if (!vibrating) {
-                            VibrationEffect effect = VibrationEffect.createWaveform(pattern, 0); // 无限循环
-                            vib.vibrate(effect);
-                            vibrating = true;
-                        }
-                    }
-                }
-            }
+        if (vib != null &&
+                minutesAgo >= 0 && pressureValue != -1 && minutesAgo <= 5 && // 检测数据是否正常
+                pressureValue > threshold && // 当压力值小于临界值
+                Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && // 检查是否支持 VibrationEffect
+                !vibrating) {
+            VibrationEffect effect = VibrationEffect.createWaveform(pattern, 0); // 无限循环
+            vib.vibrate(effect);
+            vibrating = true;
         }
     }
 
