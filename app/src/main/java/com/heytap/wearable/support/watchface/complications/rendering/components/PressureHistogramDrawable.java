@@ -1,8 +1,6 @@
 package com.heytap.wearable.support.watchface.complications.rendering.components;
 
-import android.app.Notification;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -22,7 +20,6 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
@@ -36,7 +33,6 @@ import com.heytap.wearable.support.watchface.common.utils.TextUtil;
 import com.heytap.wearable.support.watchface.complications.R;
 import com.heytap.wearable.support.watchface.complications.proto.PressureHistogramData;
 import com.heytap.wearable.support.watchface.complications.rendering.ComplicationStyle;
-import com.heytap.wearable.support.watchface.edit.ConfigManager;
 
 import java.util.ArrayList;
 import java.util.Calendar;
